@@ -51,3 +51,5 @@ if(a > b) {
     console.log(b - a)
 }
 
+console.log(12 % 2) // ნაშთს აბრუნებს
+
