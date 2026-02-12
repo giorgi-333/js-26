@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    background-color: cadetblue;
+    width: max-content;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.n1 {
+    color: rgb(60, 37, 214);
+}
