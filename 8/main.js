@@ -1,51 +1,47 @@
 
+let qalaqebi = ["თბილისი","ქუთაისი","გორი","რუსთავი", "ფოთი"]
 
 
-let x = 3
-let y = 9
+// for(let i=0; i < qalaqebi.length; i++) {
+//     document.write(i, qalaqebi[i] + "<br>")
+// }
 
-document.write("<h1>" + x + "-ს დამატებული " + y
-    + " არის " + (x + y) + "</h1>")
-
-document.write(`<h1> ${x}-ს დამატებული ${y} არის ${x + y}  </h1>`)
-
-// let userName = "გიორგი"
-// let userSurName = "ხვედელიძე"
-// let useAge = 22
-// let userLocation = "გორი"
-
-// console.log(userName, userSurName, useAge, userLocation)
 
 let user = {
-    name: "გიორგი",
-    surName: "ხვედელიძე",
-    age: 22,
-    location: "გორი"
+    name: "giorgi",
+    age: 33,
+    location: "gori"
 }
 
-// user["name"] იგივეა რაც user.name
-
-console.log(user.name, user.surName, user.age, user.location)
-
-document.write(user.surName)
+// document.write(user.name, user.age)
 
 let users = [
     {
-        name: "გიორგი",
-        surName: "ხვედელიძე",
-        age: 22,
-        location: "გორი"
+        name: "giorgi",
+        age: 33,
+        location: "gori"
     },
     {
-        name: "ნიკა",
-        surName: "სხვაგავრიძე",
-        age: 55,
-        location: "ქუთაისი"
+        name: "nika",
+        age: 22,
+        location: "tbilisi"
+    },
+    {
+        name: "lika",
+        age: 33,
+        location: "gori"
     }
 ]
 
-// console.log(users[1].name);
-
-for (let i = 0; i < users.length; i++) {
-   document.write(`<h3 class="n1"> სახელი: ${users[i].name} <br> ასაკი: ${users[i].age} </h3>`)
+for(let i=0; i< users.length; i++) {
+    // console.log(users[i])
+    document.write(`
+        <div class="item"> 
+            მომხმარებელი: 
+            ${users[i].name} <br>
+            ასაკი: ${users[i].age}
+        </div>
+        `)
 }
+
+result.innerHTML += `<h1> text 2 </h1>`
