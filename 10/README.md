@@ -38,3 +38,12 @@ https://nicepage.com/website-templates/preview/ocean-travel-86000?device=desktop
   }
 ]
 ```
+
+# დავალება 3 
+
+https://nicepage.com/website-templates/preview/burger-menu-5805552?device=desktop
+
+
+ფოტოები გადმოწერეთ დავალება 3-ს ფოლდერიდან, შექმენით JS-ში მონაცემების შესაბამისი მასივი და ობიექტები..
+
+![](./sources/burgers.png)
