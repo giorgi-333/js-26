@@ -1,0 +1,13 @@
+
+.btn {
+    display: inline-block;
+    background-color: green;
+    padding: 5px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+h2.active {
+    border: 1px solid green;
+    color: red;
+}
