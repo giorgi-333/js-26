@@ -1,11 +1,18 @@
 
-const textCont = document.getElementById("headerText");
 
+let qalaqebi = ["თბილისი","ქუთაისი","გორი","რუსთავი", "ფოთი"]
 
-function jami() {
-    // document.body.innerHTML += `<h1>text</h1>`
-    textCont.className = "active";
-    textCont.style.backgroundColor = "orange";
+for(let i=0; i < qalaqebi.length; i++) {
+    console.log(qalaqebi[i], i)
 }
 
-// jami()
+console.log("------")
+
+for(let i in qalaqebi) {
+    console.log(qalaqebi[i], i)
+}
+console.log("------")
+
+for(let item of qalaqebi) {
+    console.log(item)
+}
