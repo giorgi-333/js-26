@@ -2,7 +2,7 @@
 
 const data = { username: 'test', password: '123' };
 
-fetch('https://jsonplaceholder.typicode.com/posts7', {
+fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST', // ვუთითებთ POST მეთოდს
   headers: {
     'Content-Type': 'application/json' // ვუთითებთ რომ json მონაცემებს ვგზავნით
